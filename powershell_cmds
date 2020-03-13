@@ -2,7 +2,7 @@ Make directory
 -> md dirname
 
 View hidden files and dirs
--> dif -Force
+-> dir -Force
 
 make files hidden
 -> (get-item .filename).Attributes =+ 'Hidden'
